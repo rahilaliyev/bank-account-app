@@ -10,7 +10,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 // Export the webpack configuration object
 module.exports = {
   // Entry point of the application
-  entry: "./src/index.js",
+  entry: "./src/js/index.js",
   // Output configuration for bundled files
   output: {
     // Resolve the output path to an absolute directory
